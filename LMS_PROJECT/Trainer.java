@@ -14,6 +14,7 @@ public class Trainer {
         String Qualification = "M.Tech";
         int Salary = 50000;
         float TrainerRating = 4.5f;
+        boolean isExpertInSpecifiedCourse = true;
 
         // Printing Values
         System.out.println("Trainer ID: " + TrainerId);
@@ -28,6 +29,7 @@ public class Trainer {
         System.out.println("Qualification: " + Qualification);
         System.out.println("Salary: " + Salary);
         System.out.println("Trainer Rating: " + TrainerRating);
+        System.out.println("Is Expert In Specified Course: " + isExpertInSpecifiedCourse);
 
     }
 
