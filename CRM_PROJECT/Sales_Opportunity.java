@@ -1,7 +1,5 @@
 package CRM_PROJECT;
 
-import java.time.LocalDate;
-
 public class Sales_Opportunity {
     public static void main(String[] args) {
         short oppId = 246;
