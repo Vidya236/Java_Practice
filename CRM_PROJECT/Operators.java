@@ -18,6 +18,9 @@ public class Operators {
         boolean isPrioritised = leadBudget > 3000 && isContacted;
         interactionCount++;
 
+        System.out.println("customer Id: " + customerId);
+        System.out.println("customer Name: " + customerName);
+        System.out.println("Lead Status: " + isContacted);
         System.out.println("Average Purchases: " + avgPurchases);
         System.out.println("Sales opportunity: " + saleopp);
         System.out.println("Is Prioritised: " + isPrioritised);
