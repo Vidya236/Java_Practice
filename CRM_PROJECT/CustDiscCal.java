@@ -19,6 +19,9 @@ public class CustDiscCal {
             baseDiscount = 0;
         }
 
+        // Ternary
+        baseDiscount = isPremium ? 0.10 : yearsPartnership >= 3 ? 0.05 : 0;
+
         switch (dealStage) {
             case "Negotiation":
                 extraDiscount = 0.03;
@@ -44,6 +47,7 @@ public class CustDiscCal {
         System.out.println("Years Partnership: " + yearsPartnership);
         System.out.println("Deal Stage: " + dealStage);
         System.out.println("Deal Value: " + dealValue);
+        System.out.println("Base Discount using ternary:  " + (baseDiscount * 100) + "%");
         System.out.printf("Base Discount: %.2f%%\n", baseDiscount * 100);
         System.out.printf("Extra Discount: %.2f%%\n", extraDiscount * 100);
         System.out.printf("totalDiscount: %.2f%%\n", totalDiscount * 100);
