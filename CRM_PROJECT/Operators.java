@@ -20,7 +20,9 @@ public class Operators {
 
         System.out.println("customer Id: " + customerId);
         System.out.println("customer Name: " + customerName);
+        System.out.println("Lead ID: " + leadId);
         System.out.println("Lead Status: " + isContacted);
+        System.out.println("Is Closed: " + isClosed);
         System.out.println("Average Purchases: " + avgPurchases);
         System.out.println("Sales opportunity: " + saleopp);
         System.out.println("Is Prioritised: " + isPrioritised);
